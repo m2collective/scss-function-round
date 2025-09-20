@@ -1,0 +1,31 @@
+{
+  "name": "@bu0nq/style.scss.function.round",
+  "version": "0.1.0",
+  "description": "Package for integrating Style.SCSS.Function.Round",
+  "main": "round.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bu0nq/style.scss.function.round.git"
+  },
+  "keywords": [
+    "style",
+    "scss",
+    "function",
+    "round"
+  ],
+  "author": {
+    "name": "bu0nq",
+    "email": "hello@bu0nq.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bu0nq/style.scss.function.round/issues"
+  },
+  "homepage": "https://github.com/bu0nq/style.scss.function.round#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
