@@ -1,8 +1,10 @@
 @use "sass:math";
 
+$decimals: 0 !default;
+
 @function round(
   $value,
-  $decimals: 0
+  $decimals: $decimals
 ) {
   $n: 1;
 
