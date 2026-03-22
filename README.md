@@ -1,14 +1,17 @@
 # SCSS Function Round
 
-Package for integrating `SCSS Function Round` in a web environment.
+A package for integrating the rounding function of numeric values.
 
 ![npm](https://img.shields.io/npm/v/@bu0nq/scss-function-round?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dt/@bu0nq/scss-function-round?style=for-the-badge)
+
+Documentation: [EN](README.md) | [RU](README.RU.md)
+
 ___
 
 ## Installation
 
-This package can be deployed automatically using NPM:
+You can install the package automatically using NPM:
 
 ```
 npm i @bu0nq/scss-function-round
@@ -16,56 +19,34 @@ npm i @bu0nq/scss-function-round
 
 ## Usage
 
-Import in your project depending on your setup:
+To use the package, import it into your project:
 
 ```scss
 @use "@bu0nq/scss-function-round" as *;
 
 .demo {
-    line-height: round(15.5px);
-    font-size: round(15.4px);
+    font-size: round(16.4px);
 }
 ```
 
-Execution result:
+## Changing the namespace
 
-```css
-.demo {
-    line-height: 16px;
-    font-size: 15px;
-}
-```
-
-## Namespace
-
-You can change the namespace during import and use the rem function with a different namespace:
+You can change the namespace during function import and use the function with a different namespace:
 
 ```scss
-@use "@bu0nq/scss-function-round" as to;
+@use "@bu0nq/scss-function-round" as function;
 
 .demo {
-    font-size: to.round(16px);
+    font-size: function.round(16.4px);
 }
 ```
 
-## Changing decimals
+## Changing the variables
+
+You can redefine the default values for the specified variables when importing the function:
 
 ```scss
 @use "@bu0nq/scss-function-round" as * with (
-  $decimals: 1
+    $decimals: 0,
 );
-
-.demo {
-    line-height: round(15.25px);
-    font-size: round(15.24px);
-}
-```
-
-Execution result:
-
-```css
-.demo {
-    line-height: 15.3px;
-    font-size: 15.2px;
-}
 ```
