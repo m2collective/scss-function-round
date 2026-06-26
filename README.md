@@ -26,6 +26,7 @@ To use the package, import it into your project:
 }
 
 // Return
+
 .demo {
     font-size: 16px;
 }
@@ -43,6 +44,7 @@ You can change the namespace during function import and use the function with a 
 }
 
 // Return
+
 .demo {
     font-size: 16px;
 }
@@ -62,6 +64,7 @@ You can redefine the default values for the specified variables when importing t
 }
 
 // Return
+
 .demo {
     font-size: 16.4px;
 }
