@@ -6,7 +6,8 @@
     "m2collective",
     "scss",
     "function",
-    "round"
+    "round",
+    "style"
   ],
   "main": "index.scss",
   "exports": {
