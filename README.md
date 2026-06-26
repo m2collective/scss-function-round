@@ -24,6 +24,11 @@ To use the package, import it into your project:
 .demo {
     font-size: round(16.4px);
 }
+
+// Return
+.demo {
+    font-size: 16px;
+}
 ```
 
 ## Changing the namespace
