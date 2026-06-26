@@ -2,10 +2,7 @@
 
 A package for integrating the rounding function of numeric values.
 
-![npm](https://img.shields.io/npm/v/@bu0nq/scss-function-round?style=for-the-badge)
-![npm](https://img.shields.io/npm/dt/@bu0nq/scss-function-round?style=for-the-badge)
-
-Documentation: [EN](README.md) | [RU](README.RU.md)
+![npm](https://img.shields.io/npm/v/@m2collective/scss-function-round?style=for-the-badge)
 
 ___
 
@@ -14,7 +11,7 @@ ___
 You can install the package automatically using NPM:
 
 ```
-npm i @bu0nq/scss-function-round
+npm i @m2collective/scss-function-round
 ```
 
 ## Usage
@@ -22,7 +19,7 @@ npm i @bu0nq/scss-function-round
 To use the package, import it into your project:
 
 ```scss
-@use "@bu0nq/scss-function-round" as *;
+@use "@m2collective/scss-function-round" as *;
 
 .demo {
     font-size: round(16.4px);
@@ -34,7 +31,7 @@ To use the package, import it into your project:
 You can change the namespace during function import and use the function with a different namespace:
 
 ```scss
-@use "@bu0nq/scss-function-round" as function;
+@use "@m2collective/scss-function-round" as function;
 
 .demo {
     font-size: function.round(16.4px);
@@ -46,7 +43,11 @@ You can change the namespace during function import and use the function with a 
 You can redefine the default values for the specified variables when importing the function:
 
 ```scss
-@use "@bu0nq/scss-function-round" as * with (
+@use "@m2collective/scss-function-round" as * with (
     $decimals: 0,
 );
 ```
+
+## License
+
+The MIT License (MIT). Please see the [License file](LICENSE.txt) for more information.
