@@ -1,14 +1,13 @@
 {
-  "name": "@bu0nq/scss-function-round",
-  "version": "2.0.0",
-  "description": "A package for integrating the rounding function of numeric values",
+  "name": "@m2collective/scss-function-round",
+  "version": "0.1.0",
+  "description": "A package for integrating the rounding function of numeric values.",
   "keywords": [
+    "m2collective",
     "scss",
-    "style",
-    "frontend",
     "function",
-    "functions",
-    "round"
+    "round",
+    "style"
   ],
   "main": "index.scss",
   "exports": {
@@ -17,22 +16,22 @@
       "default": "./index.scss"
     }
   },
-  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "license": "MIT",
   "author": {
     "name": "bu0nq",
     "email": "hello@bu0nq.ru"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bu0nq/scss-function-round.git"
+    "url": "git+https://github.com/m2collective/scss-function-round.git"
   },
   "bugs": {
-    "url": "https://github.com/bu0nq/scss-function-round/issues"
+    "url": "https://github.com/m2collective/scss-function-round/issues"
   },
-  "homepage": "https://github.com/bu0nq/scss-function-round#readme",
+  "homepage": "https://github.com/m2collective/scss-function-round#readme",
   "publishConfig": {
     "access": "public"
   }
