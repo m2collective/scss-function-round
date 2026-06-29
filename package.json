@@ -1,13 +1,14 @@
 {
   "name": "@m2collective/scss-function-round",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A package for integrating the rounding function of numeric values.",
   "keywords": [
     "m2collective",
     "scss",
     "function",
     "round",
-    "style"
+    "style",
+    "front-end"
   ],
   "main": "index.scss",
   "exports": {
