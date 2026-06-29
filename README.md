@@ -38,16 +38,6 @@ You can change the namespace during function import and use the function with a 
 
 ```scss
 @use "@m2collective/scss-function-round" as function;
-
-.demo {
-    font-size: function.round(16.4px);
-}
-
-// Return
-
-.demo {
-    font-size: 16px;
-}
 ```
 
 ## Changing the variables
@@ -58,16 +48,6 @@ You can redefine the default values for the specified variables when importing t
 @use "@m2collective/scss-function-round" as * with (
     $decimals: 1,
 );
-
-.demo {
-    font-size: round(16.4px);
-}
-
-// Return
-
-.demo {
-    font-size: 16.4px;
-}
 ```
 
 ## License
