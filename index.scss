@@ -1,1 +1,18 @@
-@forward "src/round";
+@use "sass:math";
+
+$decimals: 0 !default;
+
+@function round(
+  $value,
+  $decimals: $decimals
+) {
+  $n: 1;
+
+  @if $decimals > 0 {
+    @for $i from 1 through $decimals {
+      $n: $n * 10;
+    }
+  }
+
+  @return math.div(math.round($value * $n), $n);
+}
